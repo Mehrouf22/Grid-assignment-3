@@ -17,8 +17,54 @@ main{
 }
 
 nav{
-    background-color: red;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }
+
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+/* background-color: greenyellow; */
+}
+.logo h1{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+}
+.navgrp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: greenyellow; */
+   width: 500px;
+}
+.navgrp h5{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 200;
+font-size: 1.1em;
+}
+.navicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* background-color: greenyellow; */
+    width: 300px;
+}
+.navicon i{
+    font-size: 1.2em;
+}
+.navicon i:nth-child(3){
+background-color: black;
+color: white;
+padding: 8px;
+border-radius: 50%;
+}
+
+
 header{
     background-color: orange;
 }
